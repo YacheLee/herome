@@ -24,26 +24,26 @@
         <Button
                 android:text="Came By Accident"
                 android:layout_width="300dp"
-                android:layout_height="50dp" android:id="@+id/button"
+                android:layout_height="50dp" android:id="@+id/accidentBtn"
                 android:layout_gravity="center_horizontal" android:background="@drawable/hero_button"
                 android:textColor="#FAC740" android:layout_marginTop="15dp"
-                android:drawableLeft="@mipmap/lightning_icon" android:drawableRight="@mipmap/item_selected_btn"
+                android:drawableLeft="@mipmap/lightning_icon"
                 android:paddingLeft="5dp" android:paddingRight="10dp"/>
         <Button
                 android:text="GENETIC MUTATION"
                 android:layout_width="300dp"
-                android:layout_height="50dp" android:id="@+id/button2"
+                android:layout_height="50dp" android:id="@+id/geneticBtn"
                 android:layout_gravity="center_horizontal" android:background="@drawable/hero_button"
                 android:textColor="#FAC740" android:layout_marginTop="15dp"
-                android:drawableLeft="@mipmap/atomic_icon" android:drawableRight="@mipmap/item_selected_btn"
+                android:drawableLeft="@mipmap/atomic_icon"
                 android:paddingLeft="5dp" android:paddingRight="10dp"/>
         <Button
                 android:text="BORN WITH THEM"
                 android:layout_width="300dp"
-                android:layout_height="50dp" android:id="@+id/button3"
+                android:layout_height="50dp" android:id="@+id/bornBtn"
                 android:layout_gravity="center_horizontal" android:background="@drawable/hero_button"
                 android:textColor="#FAC740" android:layout_marginTop="15dp"
-                android:drawableLeft="@mipmap/rocket_icon" android:drawableRight="@mipmap/item_selected_btn"
+                android:drawableLeft="@mipmap/rocket_icon"
                 android:paddingLeft="5dp" android:paddingRight="10dp"/>
         <Button
                 android:text="CHOOSE POWERS"
@@ -53,6 +53,8 @@
                 android:layout_gravity="center_horizontal" android:background="@drawable/hero_solid_button"
                 android:backgroundTint="#FAC740"
                 android:textColor="#10161D" android:layout_marginTop="15dp"
-                android:paddingLeft="5dp" android:paddingRight="10dp"/>
+                android:paddingLeft="5dp" android:paddingRight="10dp"
+                android:id="@+id/chooseBtn"
+        />
     </LinearLayout>
 </FrameLayout>
